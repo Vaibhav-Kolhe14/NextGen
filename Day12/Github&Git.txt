@@ -1,0 +1,29 @@
+git init - to initalise .git file
+
+git status - to check the status of files 
+
+git add . / git add one.txt  - to add files to staging area
+
+git commit -m "message passed while commit"  - commit the files from staging area to repo
+
+git log  &  git log --oneline  - to check logs of commit
+
+
+git config --global core.editor "code --wait"
+
+"add .gitignore from gui not from terminal it still track files whichever written in .gitignore"
+
+"When we use keep .gitkeep then git does not track empty folders, like here we create public folder now git does not tracking it,
+but later we created testingGitkeep.txt its not folder its files so git tracks it"
+
+
+git branch  -  to check branches of that project/repo etc
+
+git branch <BRANCH_NAME>  -   creates new branch
+
+
+git switch <BRANCH_NAME>  -  switch between branches
+git checkout <BRANCH_NAME>  -   -||-
+
+
+git merge <BRANCH_NAME>   -  to merge the specified branch with our current branch
